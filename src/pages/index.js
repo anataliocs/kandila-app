@@ -66,7 +66,7 @@ export default class IndexPage extends React.Component {
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-8 text-center">
-                                <h2 className="mt-0">Let's Get In Touch!</h2>
+                                <h2 className="mt-0">Let's Collaborate</h2>
                                 <hr className="divider my-4"/>
                                 <p className="text-muted mb-5">Learn more about the project</p>
                             </div>
@@ -75,11 +75,12 @@ export default class IndexPage extends React.Component {
                             <div className="col-lg-6 mr-auto text-center">
                                 <i className="fab fa-twitter fa-3x mb-3 text-muted"></i>
                                 <a className="d-block" href="https://twitter.com/appkandila">
-                                    https://twitter.com/appkandila</a>
+                                    @appkandila</a>
                             </div>
                             <div className="col-lg-6 mr-auto text-center">
                                 <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                                <a className="d-block" href="info@kandila.app">info@kandila.app</a>
+                                <a className="d-block"
+                                   href="mailto:info@kandila.app">info@kandila.app</a>
                             </div>
                         </div>
                     </div>
