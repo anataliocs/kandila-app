@@ -67,10 +67,10 @@ export default class Layout extends React.Component {
             <br/>
             <div className="text-center text-muted">
               <h2>
-                <a href="https://twitter.com/canatalio">
+                <a href="https://twitter.com/appkandila">
                   <i className="fab fa-twitter-square"></i></a>&nbsp;
-                <a href="https://www.facebook.com/">
-                  <i className="fab fa-facebook-square"></i></a>
+                <a href="https://medium.com/kandila">
+                  <i className="fab fa-medium"></i></a>
               </h2>
             </div>
           </div>

@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/gatsby-creative`,
   siteMetadata: {
-    title: `Gatsby Chris Anatalio Base Starter`,
+    title: `Kandila App Dex and Defi Enrichment Layer`,
     description: `Base Project Starter.`,
     author: `@gatsbyjs`,
   },
@@ -25,7 +25,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/kandila-logo1.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sass`,
@@ -40,7 +40,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "", //TODO Enter ID here Example: UA-16364565-3
+        trackingId: "250426330",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
