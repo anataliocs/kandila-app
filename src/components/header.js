@@ -44,7 +44,7 @@ export default class Header extends React.Component {
                 <h1 className="text-uppercase text-white font-weight-bold">Kandila App</h1>
                 <hr className="divider my-4"/>
               </div>
-              <div className="col-lg-8 align-self-baseline">
+              <div className="col-lg-8 align-self-baseline header-text">
                 <p className="text-white-75 font-weight-light mb-5">Kandila's mission is to become an Enrichment layer over the Decentralized Exchange and DeFi Ecosystem.</p>
                 <a className="btn btn-primary btn-xl js-scroll-trigger" href="#about" onClick={Scroller.handleAnchorScroll}>
                   <i className="fab fa-ethereum fa-2x"></i></a>

@@ -70,7 +70,9 @@ export default class Layout extends React.Component {
                 <a href="https://twitter.com/appkandila">
                   <i className="fab fa-twitter-square"></i></a>&nbsp;
                 <a href="https://medium.com/kandila">
-                  <i className="fab fa-medium"></i></a>
+                  <i className="fab fa-medium"></i></a>&nbsp;
+                <a href="https://github.com/kandila-app">
+                  <i className="fab fa-github"></i></a>
               </h2>
             </div>
           </div>

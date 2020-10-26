@@ -4,13 +4,20 @@ header.masthead {
 	padding-bottom: calc(10rem - #{$navbar-height});
 	// replace the masthead.jpg image in the /img directory to change the image
 	// if the image name change, make sure to update the url path below!
-	background: linear-gradient(to bottom, #{fade-out($brown, .2)} 0%,#{fade-out($brown, .2)} 100%), url('../images/ether.jpg');
+	background: linear-gradient(to bottom, #{fade-out($kandila-dark-orange, .3)} 10%,#{fade-out($kandila-dark-orange, .55)} 90%), url('../images/ether.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
 	h1 {
 		font-size: 2.25rem;
+		opacity: 0.9;
+	}
+	hr, a {
+		opacity: 0.85;
+	}
+	div.header-text {
+		opacity: 0.85;
 	}
 	@include media-breakpoint-up(lg) {
 		height: 100vh;
