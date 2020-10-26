@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: `/gatsby-creative`,
   siteMetadata: {
     title: `Kandila App Dex and Defi Enrichment Layer`,
-    description: `Base Project Starter.`,
+    description: `Decentralized Exchange and DeFi Ecosystem Data Visualization and Market Info`,
     author: `@gatsbyjs`,
   },
   plugins: [
